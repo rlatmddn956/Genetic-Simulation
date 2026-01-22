@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 그래프 스타일을 시각적으로 깔끔한 ggplot 스타일로 설정
+# 그래프 스타일을 ggplot 스타일로 설정
 plt.style.use('ggplot')
 
 def simulate_genetic_drift(N, p0, generations, trajectories):
